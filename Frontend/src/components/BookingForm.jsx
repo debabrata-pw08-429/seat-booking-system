@@ -1,8 +1,8 @@
 import "../styles/bookingform.css";
 import { useEffect, useState } from "react";
 
-const reservationURL = import.meta.env.VITE_SOME_reservationURL;
-const resetURL = import.meta.env.VITE_SOME_resetURL;
+const reservationURL = import.meta.env.VITE_SOME_backendURL + "/seats/reserve";
+const resetURL = import.meta.env.VITE_SOME_backendURL + "/seats/reset";
 
 const BookingForm = () => {
   // State variables

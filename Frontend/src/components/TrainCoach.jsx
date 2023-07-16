@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../coach.css";
 
-const url = import.meta.env.VITE_SOME_seatsURL;
+const url = import.meta.env.VITE_SOME_backendURL + "/seats";
 
 console.log(url);
 const TrainCoach = () => {
